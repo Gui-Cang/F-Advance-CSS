@@ -18,3 +18,40 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  font-size: smaller;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgrey;
+  color: darkgray;
+}
+
+.footer p {
+  margin: 15px 0 0 0;
+}
+
+.footer > a {
+  margin: 0 0 15px 0;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main div {
+  border: red 1px solid;
+}
+
+.main-body {
+  display: flex;
+}
