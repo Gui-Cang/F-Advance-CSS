@@ -32,7 +32,7 @@ ul {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: lightgrey;
+  background-color: #f9f9f9;
   color: darkgray;
 }
 
@@ -49,7 +49,7 @@ ul {
   margin: 30px 100px;
 }
 
-.main div {
+.sign-in div {
   border: red 1px solid;
 }
 
@@ -75,7 +75,7 @@ ul {
 }
 
 .about {
-  background-color: lightgrey;
+  background-color: #f9f9f9;
 }
 
 .about h1,
@@ -105,12 +105,14 @@ ul {
 .sign-in {
   width: 300px;
   height: 200px;
-  background-color: lightgray;
+  background-color: #f9f9f9;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   align-self: center;
+  border: white 2px;
+  border-radius: 10px;
 }
 
 .sign-in-checkbox {
@@ -126,10 +128,39 @@ ul {
   justify-content: center;
   align-items: center;
   margin: 0;
+  border-radius: 5px;
 }
 
+.sign-in-form input {
+  margin: 0;
+  width: 200px;
+  height: 30px;
+}
+
+.username {
+  border-radius: 5px 5px 0 0;
+  border: 1px darkgray solid;
+}
+
+.password {
+  border-radius: 0 0 5px 5px;
+  border: 1px darkgray solid;
+  border-top: none;
+}
+
+/*.sign-in-info2{*/
+/*  width: 200px;*/
+/*  height: 80px;*/
+/*  margin: 0;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  justify-content: center;*/
+/*  align-items: center;*/
+/*  border-radius: 10px;*/
+/*}*/
+
 .sign-in-button {
-  width: 150px;
+  width: 200px;
   height: 35px;
   background-color: royalblue;
   border: none;
