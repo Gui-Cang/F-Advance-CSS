@@ -45,7 +45,8 @@ ul {
 }
 .main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin: 30px 100px;
 }
 
 .main div {
@@ -54,4 +55,33 @@ ul {
 
 .main-body {
   display: flex;
+}
+
+.left-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about,
+.archives {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 0 20px;
+  margin: 0;
+  flex-grow: 2;
+}
+
+.about {
+  background-color: lightgrey;
+}
+
+.about h1,
+.archives h1 {
+  font-style: italic;
+}
+
+.main-body {
+  width: 1200px;
 }
